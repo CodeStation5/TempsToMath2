@@ -56,6 +56,7 @@ public class Main {
                 if (numOfTemps > 0) {
                     double avgTemp = totalTemps / numOfTemps;
                     System.out.println("Average temperature: " + avgTemp);
+                    System.out.println("Number of temperatures entered: " + numOfTemps);
                 }
                 else {
                     System.out.println("No temperatures found in the file.");
@@ -70,7 +71,7 @@ public class Main {
         else {
             System.out.println ("Program is exiting");
         }
-        // Closes file input
+        // Closes file scanner
         input.close();
     }
 }
